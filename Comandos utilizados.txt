@@ -1,16 +1,22 @@
-git init
+git init 
+#criar um novo repositório Git ou reinicializar um já existente
 
 
-git add README.md
+git add .
+#adicionar conteúdo, adicionando conteudo da pasta
 
 
-git commit -m "first commit"
+git commit -m "first commit" 
+#Cria um commit no repositorio local
 
 
 git branch -M main
+#Cria a linha de comando principal, a main, que dela pode vir ramificações
 
 
 git remote add origin https://github.com/GuilhermeGPBatista/cltversion.git
+#faz a conexação da pasta do projeto no repositório criado no Github, através do link
 
 
 git push -u origin main
+#Ele sobe o projeto para a branch main através do push, assim o projeto fica no repositório 
